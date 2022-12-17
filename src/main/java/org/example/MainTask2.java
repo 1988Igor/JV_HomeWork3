@@ -29,11 +29,9 @@ public class MainTask2 {
         listGoods.add(goods5);
         listGoods.add(goods6);
 
-
         String search = "second";
 
         double min = goods5.getPrices();
-
         String productName = null;
         String varietiesName = null;
         for (GoodsTask2 goods : listGoods) {
@@ -46,9 +44,7 @@ public class MainTask2 {
                     varietiesName = goods.getVarieties();
                 }
         }
-
         System.out.println(" Цена товара |" + productName + "| заданного сорта |" + varietiesName +
                 "|\n  является самой наименьшей = " + min);
-
     }
 }

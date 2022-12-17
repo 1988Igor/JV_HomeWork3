@@ -7,18 +7,12 @@ package org.example;
 
 import java.util.*;
 
-import static org.example.Primecheck.checkPrime;
-
-
 public class MainTask3 {
-
     public static void main(String[] args) {
         Task3();
-
     }
 
     private static void Task3() {
-
 
         BooksTask3 book1 = new BooksTask3("Hello World", "Alistov", 125.00, 1954, 71);
         BooksTask3 book2 = new BooksTask3("I love Java", "Antonov", 340.00, 1960, 11);
@@ -52,7 +46,6 @@ public class MainTask3 {
                 }
             }
             if ((bol) && books.getAuthor_name().contains("A") && (books.getPublication_year() <= 2010))
-
 
                 System.out.println(books.getBooks_name());
         }
